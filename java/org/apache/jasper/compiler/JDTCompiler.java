@@ -317,10 +317,10 @@ public class JDTCompiler extends org.apache.jasper.compiler.Compiler {
             // Support old format that was used in EA implementation as well
             } else if(opt.equals("9") || opt.equals("1.9")) {
                 settings.put(CompilerOptions.OPTION_Source,
-                             CompilerOptions.VERSION_9);
+                             CompilerOptions.VERSION_1_9);
             } else if(opt.equals("10")) {
                 settings.put(CompilerOptions.OPTION_Source,
-                             CompilerOptions.VERSION_10);
+                             CompilerOptions.VERSION_1_9);
             } else {
                 log.warn(Localizer.getMessage("jsp.warning.unknown.sourceVM", opt));
                 settings.put(CompilerOptions.OPTION_Source,
@@ -371,14 +371,14 @@ public class JDTCompiler extends org.apache.jasper.compiler.Compiler {
             // Support old format that was used in EA implementation as well
             } else if(opt.equals("9") || opt.equals("1.9")) {
                 settings.put(CompilerOptions.OPTION_TargetPlatform,
-                             CompilerOptions.VERSION_9);
+                             CompilerOptions.VERSION_1_9);
                 settings.put(CompilerOptions.OPTION_Compliance,
-                        CompilerOptions.VERSION_9);
+                        CompilerOptions.VERSION_1_9);
             } else if(opt.equals("10")) {
                 settings.put(CompilerOptions.OPTION_TargetPlatform,
-                        CompilerOptions.VERSION_10);
+                        CompilerOptions.VERSION_1_9);
                 settings.put(CompilerOptions.OPTION_Compliance,
-                        CompilerOptions.VERSION_10);
+                        CompilerOptions.VERSION_1_9);
             } else {
                 log.warn(Localizer.getMessage("jsp.warning.unknown.targetVM", opt));
                 settings.put(CompilerOptions.OPTION_TargetPlatform,
