@@ -1,6 +1,6 @@
-package zq.domain;
+package zq.chapter1.domain;
 
-import zq.SimpleServer;
+import zq.chapter1.SimpleServer;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -13,13 +13,13 @@ public class Response {
 
     private OutputStream out;
 
-    private Request request;
+    private zq.chapter1.domain.Request request;
 
     public Response(OutputStream out) {
         this.out = out;
     }
 
-    public void setRequest(Request request) {
+    public void setRequest(zq.chapter1.domain.Request request) {
         this.request = request;
     }
 

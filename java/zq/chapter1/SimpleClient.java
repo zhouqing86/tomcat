@@ -1,4 +1,4 @@
-package zq;
+package zq.chapter1;
 
 
 import java.io.BufferedReader;

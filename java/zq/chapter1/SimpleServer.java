@@ -1,7 +1,7 @@
-package zq;
+package zq.chapter1;
 
-import zq.domain.Request;
-import zq.domain.Response;
+import zq.chapter1.domain.Request;
+import zq.chapter1.domain.Response;
 
 import java.io.File;
 import java.io.IOException;

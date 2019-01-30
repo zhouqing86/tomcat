@@ -1,4 +1,4 @@
-package zq.domain;
+package zq.chapter1.domain;
 
 import java.io.IOException;
 import java.io.InputStream;
